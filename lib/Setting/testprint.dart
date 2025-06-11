@@ -57,10 +57,10 @@ class TestPrint {
         // bluetooth.print3Column("Col1", "Col2", "Col3", Size.bold.val,
         //     format:
         //         "%-10s %10s %10s %n"); //10 is number off character from left center and right
-        // bluetooth.printNewLine();
-        // bluetooth.print4Column("Col1", "Col2", "Col3", "Col4", Size.bold.val);
-        // bluetooth.print4Column("Col1", "Col2", "Col3", "Col4", Size.bold.val,
-        //     format: "%-8s %7s %7s %7s %n");
+        bluetooth.printNewLine();
+        bluetooth.print4Column("Col1", "Col2", "Col3", "Col4", Size.bold.val);
+        bluetooth.print4Column("Col1", "Col2", "Col3", "Col4", Size.bold.val,
+            format: "%-8s %7s %7s %7s %n");
         bluetooth.printNewLine();
         // bluetooth.printCustom("čĆžŽšŠ-H-ščđ", Size.bold.val, Align.center.val,
         //     charset: "windows-1250");
